@@ -1,0 +1,7 @@
+<h1>Get one Photo</h1>
+
+<form method="get" action="/detail/" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>

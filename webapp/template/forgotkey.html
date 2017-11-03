@@ -1,0 +1,7 @@
+<h1>Forgot</h1>
+
+<form method="post" action="/mailkey/">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
